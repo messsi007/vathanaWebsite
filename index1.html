@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Label Carousel</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100px;
+      padding-top: 20px;
+    }
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border: 2px solid currentColor;
+      border-radius: 25px;
+      padding: 0 20px;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+    hello
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">STRATEGY</div>
+      <div class="swiper-slide">TRANSITION</div>
+      <div class="swiper-slide">REBRAND</div>
+      <div class="swiper-slide">COLLABORATION</div>
+      <div class="swiper-slide">ALIGNMENT</div>
+      <div class="swiper-slide">STRATEGY</div>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+</html>

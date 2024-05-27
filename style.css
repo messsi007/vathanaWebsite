@@ -1,0 +1,684 @@
+    h1,h2,h3,p,ul{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .bar{
+        background-color: rgb(0, 140, 255);
+    }
+    .title{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .title p{
+        font-size: 13px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    .bar1{
+        background-color: black;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    .menu ul li a i{
+        text-align: end;
+        font-size: 18px;
+    }
+    .menu ul li a span{
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .title-page{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-page ul li a{
+        font-size: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+    }
+    .title-page ul li a img{
+        height: 40px;
+        padding-left: 10px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    /* title-menu */
+    .title-menu{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .title-menu .title-menu1{
+        width: 100%;
+    }
+    .title-menu .title-menu1 p{
+        width: auto;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .box-infor{
+        height: 100px;;
+    }
+    .box-infor .box-infor-item{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-infor-item .box-infor1{
+        width: 20%;
+        height: 60%;
+        border: 5px solid red;
+        border-radius: 30px;
+        display: flex;
+        text-align: center;
+        margin: 0px 10px;
+        display: none;
+        position: relative;
+    }
+    .box-infor-item .box-infor1:nth-child(2){
+        border: 5px solid green;
+    }
+    .box-infor-item .box-infor1:nth-child(3){
+        border: 5px solid blue;
+    }
+    .box-infor-item .box-infor1:nth-child(4){
+        border: 5px solid pink;
+    }
+    .box-infor-item .box-infor1:nth-child(5){
+        border: 5px solid white;
+    }
+    .box-infor-item .box-infor1:nth-child(6){
+        border: 5px solid purple;
+    }
+    .box-infor-item .box-infor1:nth-child(7){
+        border: 5px solid skyblue;
+    }
+    .box-infor-item .box-infor1 p{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 18px;
+    }
+    .word1{
+        display: inline-block;
+    }
+    .word2{
+        display: none;
+    }
+    .bar2{
+        background-color: #fff;
+    }
+    .img-page{
+        height: 400px;
+    }
+    .img-page .img-page-item{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .img-page .img-page-item img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .line{
+        width: 260px;
+        height: 2px;
+        margin: 8px 0px;
+        background-color: black;
+    }
+    .img-page .img-page-item img:nth-child(2){
+        width: 300px;
+        height: 270px;
+        border-radius: 15px;
+    }
+    .img-page .img-page-item img:nth-child(1){
+        z-index: 22;
+        width: 300px;
+    }
+    .word-title .word-title-item{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .word-title .word-title-item p{
+        font-family: "Catamaran", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .word-title .word-title-item h1{
+        font-weight: 400;
+        font-size: 30px;
+    }
+    .box-item{
+        height: 100px;
+        display: none;
+    }
+    .box-item .box-item1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .box-item .box-item1 .box-item1-item{
+        width: 20%;
+        height: 100%;
+    }
+    .box-item .box-item1 .box-item1-item img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .bar3{
+        background-color: #B3A8E8;
+    }
+    .card {
+        width: 340px;
+        margin: 0;
+        padding: 0;
+        background-color: #B3A8E8;
+        border: none;
+    }
+    .card hr{
+        border: 2px solid black;
+    }
+    .card-body h5{
+        font-size: 30px;
+    }
+    .card img{
+        height: 200px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .news-page{
+        height: 250px;
+    }
+    .news-page .news-page-item{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .news-page .news-page-item img{
+        width:100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover;
+    }
+    .infor-page .infor-page-item{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .infor-page .infor-page-item .infor-page-title{
+        width: 100%;
+    }
+    .infor-page .infor-page-item .infor-page-title p{
+        width: 85%;
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .infor-page .infor-page-item .infor-page-title h1{
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+    .infor-page .infor-page-item .infor-page-title ul li{
+        font-size: 15px;
+    }
+    .table tbody tr td{
+        text-align: center;
+        border: none;
+    }
+    /* new page */
+    .box-img{
+        height: 250px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .box-img .box-img-item{
+        width: 100%;
+        height: 100%;
+    }
+    .box-img .box-img-item img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .title-box1 .title-box1-item{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 150px;
+    }
+    .title-box1-item p:nth-child(1){
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        display: inline;
+        margin-bottom: 7px;
+    }
+    .title-box1-item h1{
+        padding: 2px 0px;
+        width: 300px;
+        font-size: 29px;
+    }
+    .title-box1-item p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .title-box1-item .title1-fix, .title-box1-item .download-btn{
+        font-size: 17px;
+        width: auto;
+    }
+    .title-menu1{
+        position: relative;
+    }
+    .title-menu1 .pen-img{
+        position: absolute;
+        top: 40px;
+        left: -28px;
+        bottom: -100px;
+        width: 230px
+    }
+    .title-page-second{
+        position: relative;
+    }
+    .title-page-second ul{
+        position: absolute;
+        left: 0;
+    }
+    .title-box1-item .form{
+        width: 100%;
+        height: 80px;
+    }
+    .title-box1-item .form form p:nth-child(1) input{
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: gainsboro;
+        font-size:18px;
+        outline: none;
+    }
+    .title-box1-item .form form p{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .title-box1-item .form form p:nth-child(2) input{
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border-radius: 10px;
+        border: none;
+        background-color: gainsboro;
+        font-size:20px;
+    }
+    .title-box1-item .form form p button{
+        padding: 8px;
+        width: 140px;
+        font-size: 18px;
+        background-color: #fff;
+        border-radius: 6px;
+        margin-top: 6px;
+        border: 1px solid black;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.395);
+        margin-top: 10px;
+    }
+    .title-box1 .title-box1-fix{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    /*  */
+    .img-box-item1 .img-box-item1-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box-item1 .img-box-item1-box img{
+        width: 50%;
+        height: 85%;
+    }
+    .infor-website{
+        height: 750px;
+    }
+    .infor-website .infor-website-item{
+        width: 100%;
+        height: 100%;
+    }
+    .infor-website .infor-website-item .infor-website-item1{
+        width: 100%;
+        height: 40%;
+        display: flex;
+    }
+    .infor-website .infor-website-item .infor-website-item1:nth-child(2),.infor-website .infor-website-item .infor-website-item1:nth-child(3){
+        height: 15%;
+        width: 100%;
+        display: flex;
+    }
+    .infor-website .infor-website-item .infor-website-item1 .infor-website-item1-box1{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        gap: 0px;
+    }
+    .infor-website .infor-website-item .infor-website-item1 .infor-website-item1-box1 h1{
+        font-size: 20px;
+    }
+    .infor-website .infor-website-item .infor-website-item1 .infor-website-item1-box2{
+        width:70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infor-website .infor-website-item .infor-website-item1 .infor-website-item1-box2 .table{
+        width: 80%;
+        height: 30%;
+    }
+    .infor-website .infor-website-item .infor-website-item1 .infor-website-item1-box2 .table tbody tr td{
+        background-color: #C3B3A1;
+    }
+    .spinner img{
+        animation: spin 10s linear infinite;
+    }
+    @keyframes spin{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    /* X-Small devices (portrait phones, less than 576px) */
+    /* No media query for `xs` since this is the default in Bootstrap */
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .title-menu .title-menu1 p{
+            width: 450px;
+            font-size: 17px;
+        }
+        .title-menu .title-menu1 p{
+            font-size: 16px;
+        }
+        .title-page ul li a{
+            font-size: 45px;
+        }
+        .word1{
+            display: none;
+        }
+        .word2{
+            display: block;
+            display: inline;
+        }
+        .title-menu .title-menu1{
+            width: 90%;
+        }
+        .news-page{
+            height: 250px;
+        }
+        .infor-page .infor-page-item{
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 20px;
+        }
+        .title-page-second{
+            position: relative;
+        }
+        .title-page-second ul{
+            position: absolute;
+            left: 8%;
+        }
+    }
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .title-box1 .title-box1-item{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 85px;
+        }
+        .title-box1-item .form form p:nth-child(2) input{
+            width: 48%;
+            height: 40px;
+            outline: none;
+            border-radius: 10px;
+            border: none;
+            background-color: gainsboro;
+            font-size:20px;
+        }
+        .title-box1-item h1{
+            padding: 2px 0px;
+            width: 400px;
+            font-size: 25px;
+        }
+        .title p{
+            font-size: 14px;
+        }
+        .title-page ul li a{
+            font-size: 55px;
+        }
+        .title-menu .title-menu1 p{
+            width: 480px;
+            font-size: 18px;
+        }
+        .title-menu .title-menu1{
+            width: 80%;
+        }
+        .news-page{
+            height: 250px;
+        }
+        .title-box1-item h1{
+            padding: 2px 0px;
+            width: 400px;
+            font-size: 26px;
+        }
+    
+    }
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .title-box1 .title-box1-item{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 50px;
+        }
+        .title-box1-item h1{
+            padding: 2px 0px;
+            width: 200px;
+            font-size: 29px;
+        }
+        .title-box1-item .form{
+            width: 60%;
+            height: 80px;
+        }
+        .title-page-second{
+            position: relative;
+        }
+        .title-page-second ul{
+            position: absolute;
+            left: 20%;
+        }
+        .box-img .box-img-item{
+            display: flex;
+            justify-content: end;
+        }
+        .box-img .box-img-item img{
+            width: 80%;
+        }
+        .box-img{
+            height: 350px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding-right: 10px;
+        }
+        .title-box1-item h1{
+            padding: 2px 0px;
+            width: 400px;
+            font-size: 40px;
+        }
+        .news-page{
+            height: 750px;
+        }
+        .infor-page .infor-page-item{
+            border-bottom-left-radius: 0px;
+        }
+        .news-page .news-page-item img{
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 20px;
+        }
+        .title p{
+            font-size: 15px;
+        }
+        .title-page ul li a img{
+            height: 90px;
+            padding-left: 10px;
+            width: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .title-menu .title-menu1 p{
+            width: 480px;
+        }
+        .title-menu .title-menu1{
+            width: 60%;
+        }
+        .box-infor-item .box-infor1{
+            display: block;
+        }
+        .word-title .word-title-item h1{
+            font-size: 35px;
+        }
+        .line{
+            width: 260px;
+            height: 2px;
+            margin: 12px 0px;
+            background-color: black;
+        }
+        .box-item{
+            display: block;
+        }
+    }       
+
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .title-box1-item h1{
+            padding: 2px 0px;
+            width: 400px;
+            font-size: 40px;
+        }
+        .title-page-second{
+            position: relative;
+        }
+        .title-page-second ul{
+            position: absolute;
+            left: 20%;
+        }
+        .line{
+            width: 260px;
+            height: 2px;
+            margin: 100px 0px;
+            background-color: black;
+        }
+        .word-title .word-title-item h1{
+            font-size: 40px;
+        }
+        .line{
+            width: 345px;
+            height: 2px;
+            margin: 8px 0px;
+            background-color: black;
+        }
+        .title p{
+            font-size: 17px;
+        }
+        .title-page ul li a{
+            font-size: 65px;
+        }
+        .title-page ul li a img{
+            height: 100px;
+            padding-left: 10px;
+            width: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .word-title .word-title-item p{
+            width: 400px;
+        }
+        
+    }   
+
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+        .title p{
+            font-size: 18px;
+        }
+        .title-page ul li a{
+            font-size: 85px;
+        }
+    }

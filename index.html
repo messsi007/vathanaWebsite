@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Archivo+Black&family=Catamaran:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container-fluid bar">
+        <div class = "row">
+            <div class = "text-center title col-xl-12 col-xxl-12 col-lg-12">
+                <p>Sign up for our upcoming webinar!</p>
+            </div>
+        </div>
+    </div>
+    <!-- title -->
+    <div class = "container-fluid bar1">
+            <div class="row">      
+                <div class = "menu col-xl-12 col-xxl-12 col-lg-12">
+                    <ul>
+                        <li>
+                            <a href="">Collab</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-slack"></i>
+                                <span>Brought to you by Saint Friend</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <!-- menu-bar -->
+    <div class =  "container-fluid bar1">
+        <div class = "container">
+            <div class = "row">
+                <div class = "title-page col-xl-12 col-xxl-12 col-lg-12">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span>TO GET IT TOGETHER</span>
+                                ,<span class="word1">GET</span></a>
+                        </li>
+                        <li>
+                            <a href=""><span><span class = "word2" style = "padding-right:10px;">GET</span>TOGETHER</span><img id = "loopImage" src="data:image/jpeg;base64,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" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "title-menu col-xl-12 col-xxl-12 col-lg-12">
+                    <div class = "title-menu1">
+                        <p>When teams are lean and budgets and timelines are tight, collaboration is always the answer. We’re here to help you gain new ways to expand creativity and collaborate better<br> so your team can waste less time, move faster, and create work you’re proud of.</p>
+                    </div>
+                </div>
+                <div class = "box-infor col-xl-12 col-xxl-12 col-lg-12">
+                    <div class = "box-infor-item">
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                        <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                         <div class = "box-infor1">
+                            <p>TRANSIION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- title-menu -->
+    <div class = "container-fluid bar2">
+        <div class = "container">
+            <div class = "row">
+                <div class = "img-page col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class = "img-page-item">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65e89da94165335cc5465d31_Pencil.svg" alt="">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65e89c02ce08e077071bdcdd_Kate-Nick-PostIt-Animation.gif" alt="">
+                    </div>
+                </div>
+                <div class = "word-title col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class = "word-title-item">
+                        <h1>WE’VE BEEN THERE</h1>
+                        <p class = "line">.</p>
+                        <p>We’ve worked both brand-side and agency-side, and
+                       we’ve seen great teams struggle when there’s more
+                       friction than collaboration. Over the years, we’ve
+                       developed and refined our process for bringing
+                       people together to create a collective vision and
+                       execute solutions. Now we’d like to share it with you.</p>
+                    </div>
+                </div>
+                <div class = "box-item col-xl-12 col-xxl-12 col-lg-12">
+                    <div class = "box-item1">
+                        <div class = "box-item1-item">
+                            <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645ab9b2e80059d06e015d4b_Frame%202.png" alt="">
+                        </div>
+                        <div class = "box-item1-item">
+                            <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645ab9b2e8005953db015d50_Frame%2010.png" alt="">
+                        </div>
+                        <div class = "box-item1-item">
+                            <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645ab9b2e800592a3a015d4c_Frame%205.png" alt="">
+                        </div>
+                        <div class = "box-item1-item">
+                            <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645ab9b2e800595336015db8_Otterbox.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class = "container-fluid bar3 py-5">
+        <div class = "container">
+            <div class = "row d-flex justify-content-center gap-3">
+                <h1 class = "py-2 title-word1">WE CAN HELP</h1>
+                <div class = "card col-xl-4 col-xxl-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65f499e663d976e934f47fa7_Screenshot%202024-03-15%20at%2011.56.19%E2%80%AFAM-p-500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Creative Team Managers</h5>
+                          <hr>
+                          <p class="card-text">Get your team on the same page and find a clear path forward together. Improve your team’s ability to connect with new approaches for efficient and effective collaboration.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class = "card col-xl-4 col-xxl-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65f498b3c6c9ff00c60e6eeb_microsoft-365-K7DehNGIOxI-unsplash-p-500.jpg" class="card-img-top" alt="picture-card">
+                        <div class="card-body">
+                          <h5 class="card-title">Marketing & Branding Leadership</h5>
+                          <hr>
+                          <p class="card-text">See your brand with a fresh perspective from outside experts, and learn new practices that make it easy to decide your brand’s next move.                          </p>
+                        </div>
+                      </div>
+                </div>
+                <div class = "card col-xl-4 col-xxl-4 col-lg-4">
+                    <div class="card">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65f49a09ee85d28e1ccb920c_jason-goodman-Oalh2MojUuk-unsplash-p-500.jpg" class="card-img-top" alt="picture-card">
+                        <div class="card-body">
+                          <h5 class="card-title">Copywriters & Designers</h5>
+                          <hr>
+                          <p class="card-text">Learn from creative leaders how to strengthen your skillset, become irreplaceable, and elevate your work and working relationships.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class = "container-fluid bar1">
+        <div class = "container">
+            <div class = "row py-5 d-flex justify-content-center g-0">
+                <div class = "news-page col-xl-5 col-xxl-5 col-lg-5 col-md-10 col-sm-10 col-10">
+                    <div class = "news-page-item">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/664270b812cbdcbd0790ef3d_Frame%201774-p-500.png" alt="">
+                    </div>
+                </div>
+                <div class = "infor-page col-xl-5 col-xxl-5 col-lg-5 col-md-10 col-sm-10 col-10">
+                    <div class = "infor-page-item">
+                        <div class = "infor-page-title ps-3">
+                            <h1>HOW TO RUN A SUCCESSFUL REMOTE WORKSHOP</h1>`
+                            <p>The shift to hybrid and remote work did not, in fact, destroy the art of collaboration. It actually brought us lots of new tools and opportunities to connect with our teams in a way that makes everyone more comfortable and ready to share.</p>
+                            <p>In this webinar, we’ll share advice and on how to prep, facilitate, and synthesize a remote workshop that draws out the information and creates the alignment that you need. We’ll also keep the mic open for sharing and conversation about your specific needs.</p>
+                            <p>Together, we’ll discuss:</p>
+                            <ul class = "ps-5">
+                                <li>Recommendations for tech tools and troubleshooting</li>
+                                <li>Our approach to designing workshop exercises</li>
+                                <li>How to keep people engaged and energized</li>
+                                <li>How to synthesize and share back what you learned</li>
+                            </ul>
+                        </div>
+                        <div class = "infor-page-icon">
+                            <div class = "infor-page-icon1">
+                                <table class = "table">
+                                    <tbody>
+                                        <tr>
+                                            <td><i class="fa-solid fa-location-dot"></i><span>Location</span></td>
+                                            <td><i class="fa-regular fa-calendar"></i><span>MAY 22ND</span></td>
+                                            <td><i class="fa-regular fa-clock"></i><span>12 PM TO 1 PM PST</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><i class="fa-solid fa-money-bill"></i><span>FREE</span></td>
+                                            <td><i class="fa-solid fa-person"></i><span>OPEN TO ALL LEVELS</span></td>
+                                        </tr>
+                                       </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <button style = "padding: 10px;border-radius: 10px;border: 1px solid black;background-color: #fff;margin-left: 10px;margin-bottom: 10px;">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <div class = "container-fluid">
+        <div style = "background-color: #AEB6FF;">
+                <div class = "container">
+                    <div class = "row py-5 flex-row-reverse g-0 d-flex align-items-center justify-content-cente">
+                        <div class = "box-img col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class = "box-img-item">
+                                <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65e8b884a6ee797e3216c21c_katenick%20peach%201.png" alt="">
+                            </div>
+                        </div>
+                        <div class = "py-5 title-box1 col-xl-5 col-xxl-5 col-lg-5 col-md-6 col-sm-12 col-12">
+                            <div class = "title-box1-item">
+                                <h1>HI, WE’RE SAINT FRIEND</h1>
+                                <hr>
+                                <p class = "py-2 title1-fix">We’re a creative studio specializing in collaborative brand design that’s meaningful, memorable, and made together. </p>
+                                <p class = "download-btn">Learn more <i class="fa-solid fa-arrow-right"></i></p>
+                            </div>
+                        </div>
+                       </div>
+                </div>
+        </div>
+        <!--  -->
+        <div class = "container-fluid bar1">
+            <div class = "container">
+                <div class = "row">
+                    <div class = "title-page title-page-second col-xl-12 col-xxl-12 col-lg-12">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span>NEED A CLOSER</span>
+                            </li>
+                            <li>
+                                <a href=""><span>CONSULT?</span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVr6yWderwBBtPTgveDlshA5QIFP_YqEYHhA&s" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class = "title-menu col-xl-12 col-xxl-12 col-lg-12">
+                        <div class = "title-menu1">
+                            <p>Send us an email at‍</p>
+                            <p>newfriends@saintfriend.co</p>
+                            <img class = "pen-img" src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65e8bab2275adb85c2c97a89_Pencil_2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Send Email -->
+        <div class = "container">
+            <div class = "row py-5 d-flex g-0 justify-content-center align-items-center">
+             <div class = "box-img col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                 <div class = "box-img-item">
+                     <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/65f9f1f7432cdd60f6b07eef_Office.png" alt="">
+                 </div>
+             </div>
+             <div class = "py-5 title-box1 col-xl-6 col-xxl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                 <div class = "title-box1-item">
+                     <h1 class = "py-3">KEEP IN TOUCH</h1>
+                     <p class = "py-1 title1-fix">Join our email list to get the latest Collab news<br> straight to your inbox</p>
+                     <div class = "form py-3">
+                        <form action="">
+                            <p>
+                                <input type="text" placeholder="Email*">
+                            </p>
+                            <p>
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Company">
+                            </p>
+                            <p>
+                                <button>Sign in</button>
+                            </p>
+                        </form>
+                     </div>
+                 </div>
+             </div>
+            </div>
+         </div>
+    </div>
+    <!--  -->
+    <div class = "container-fluid" style = "background-color: #C3B3A1;">
+        <div class = "container">
+            <div class = "row">
+                <div class = "img-box-item1 col-xl-12 col-xxl-12 col-lg-12 py-4 ">
+                    <div class = "img-box-item1-box">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645cfdd874dc9b440442baa4_saint%20friend.svg" alt="">
+                    </div>
+                </div>
+                <div class = "infor-website col-xl-7 col-xxl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+                    <div class = "infor-website-item">
+                        <div class = "infor-website-item1">
+                            <div class = "infor-website-item1-box1">
+                                <h1>Explore</h1>
+                            </div>
+                            <div class = "infor-website-item1-box2">
+                                <table class = "table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Projects</td>
+                                            <td>Service</td>
+                                        </tr>
+                                        <tr>
+                                            <td>About</td>
+                                            <td>Contact</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thoughts</td>
+                                            <td>Collaborative Laboratory</td>
+                                        </tr>
+                                        <tr>
+                                            <td class = "">Catchup and Mustread archive</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>  
+                        </div>
+                        <hr>
+                        <div class = "infor-website-item1">
+                            <div class = "infor-website-item1-box1">
+                                <h1>Follow</h1>
+                            </div>
+                            <div class = "infor-website-item1-box2">
+                                <table class = "table">
+                                    <tbody>
+                                        <tr>
+                                            <td>Instagram</td>
+                                            <td>Service</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>  
+                        </div>
+                        <hr>
+                        <div class = "infor-website-item1">
+                            <div class = "infor-website-item1-box1">
+                                <h1>Drop a line</h1>
+                            </div>
+                            <div class = "infor-website-item1-box2">
+                                <table class = "table">
+                                    <tbody>
+                                        <tr>
+                                            <td>newfriends@saintfriend.co</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class = "spin-box col-xl-5 col-xxl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                    <div class = "spinner">
+                        <img src="https://assets-global.website-files.com/645ab9b2e800597802015b1e/645d038a6bde3bd51494caff_RS_footer%20animation.svg" alt="">
+                    </div>
+                </div>
+                <div class = "col-xl-12 col-xxl-12 col-lg-12">
+                    <p class = "py-2 text-center">Copyright 2024 Saint Friend</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src = "javascript.js"></script>
+</html>
